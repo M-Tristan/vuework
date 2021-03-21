@@ -1,8 +1,13 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <!-- <el-tag>标签一</el-tag>
+<el-tag type="success">标签二</el-tag>
+<el-tag type="info">标签三</el-tag>
+<el-tag type="warning">标签四</el-tag>
+<el-tag type="danger">标签五</el-tag> -->
+      <router-link to="/"><el-tag>Home</el-tag></router-link> 
+      <router-link to="/ContourWaterfall"><el-tag type="success">等高瀑布流</el-tag></router-link>
     </div>
     <router-view/>
   </div>
